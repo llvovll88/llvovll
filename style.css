@@ -30,8 +30,8 @@ body {
 
 /* Components */
 body {
-    background-color:silver;
-    color: rgb(158, 200, 241);
+    background-color:rgb(191, 231, 247);
+    color: rgb(93, 85, 192);
 }
 
 .header {
@@ -45,20 +45,20 @@ body {
    font-family: 'Nanum Pen Script', cursive;
    font-weight: 700;
    line-height: 1;
-   color:rgb(163, 186, 194);
+   color:rgb(131, 175, 226);
 }
 
 .header-title strong {
     display: block;
-    color:rgb(157, 175, 229)
+    color:rgb(116, 129, 248)
 }
 
 .header-meta {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-family: 'Nanum Pen Script', cursive;
     display: flex;
     align-items: center;
-
+    color: rgb(32, 81, 104)
 }
 
 .header-meta::before {
@@ -88,10 +88,6 @@ body {
     align-items: center;
 }
 
-.parts-agenda h2 {
-    color: salmon;
-}
-
 .parts-times {
     width: 30%;
     max-width: 20em;
@@ -104,7 +100,7 @@ body {
 
 .parts-times span {
     margin: 0 0.4em;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-family: 'Nanum Pen Script', cursive;
 }
 
@@ -128,20 +124,20 @@ body {
 
 .parts-agenda p {
     margin: 8px 0;
-    color: pink;
+    color: rgb(44, 42, 42);
     display: flex;
     align-items: center;
 }
 
 .parts-agenda h2 {
-    color: rgb(233, 233, 188);
+    color: rgb(141, 121, 97);
     font-size: 3.2rem;
     font-family: 'Nanum Pen Script', cursive;
     line-height: 1.1;
 }
 
 .parts-role {
-    color: rgb(96, 152, 236);
+    color: rgb(219, 72, 207);
     display: flex;
     align-items: center;
 }
